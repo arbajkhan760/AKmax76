@@ -1,10 +1,10 @@
-// Placeholder for Article.kt// Book.kt
+// Article.kt
 package com.akgroup76.akmax.model
 
-data class Book(
+data class Article(
     val id: String = "",
     val title: String = "",
-    val description: String = "",
-    val author: String = "",
-    val coverUrl: String = ""
+    val content: String = "",
+    val imageUrl: String = "",
+    val author: String = ""
 )
