@@ -1,1 +1,10 @@
-// Placeholder for Book.kt
+// Book.kt
+package com.akgroup76.akmax.model
+
+data class Book(
+    val id: String = "",
+    val title: String = "",
+    val description: String = "",
+    val author: String = "",
+    val coverUrl: String = ""
+)// Placeholder for Book.kt
