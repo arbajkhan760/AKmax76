@@ -1,4 +1,3 @@
-// Book.kt
 package com.akgroup76.akmax.model
 
 data class Book(
@@ -6,5 +5,9 @@ data class Book(
     val title: String = "",
     val description: String = "",
     val author: String = "",
-    val coverUrl: String = ""
-)// Placeholder for Book.kt
+    val downloadUrl: String = "",
+    val price: Double = 0.0,
+    val coverImageUrl: String = "",
+    val uploaderId: String = "",
+    val timestamp: Long = System.currentTimeMillis()
+)
