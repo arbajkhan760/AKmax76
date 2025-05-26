@@ -1,1 +1,31 @@
-// Placeholder for nav_graph.xml
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/blogFragment">
+
+    <fragment
+        android:id="@+id/blogFragment"
+        android:name="com.akgroup76.akmax.ui.blog.BlogFragment"
+        android:label="Blog" />
+
+    <fragment
+        android:id="@+id/bookDetailFragment"
+        android:name="com.akgroup76.akmax.ui.blog.BookDetailFragment"
+        android:label="Book Detail" />
+
+    <fragment
+        android:id="@+id/articleDetailFragment"
+        android:name="com.akgroup76.akmax.ui.blog.ArticleDetailFragment"
+        android:label="Article Detail" />
+
+    <fragment
+        android:id="@+id/uploadBookFragment"
+        android:name="com.akgroup76.akmax.ui.blog.UploadBookFragment"
+        android:label="Upload Book" />
+
+    <fragment
+        android:id="@+id/uploadArticleFragment"
+        android:name="com.akgroup76.akmax.ui.blog.UploadArticleFragment"
+        android:label="Upload Article" />
+</navigation>
